@@ -1,0 +1,23 @@
+h1{
+    color: rgb(12, 46, 109);
+    font-size: 100px;
+    border-radius: 50px;
+    background-color: orange;
+    padding: 50px;
+}
+body{
+    background-image: url(https://i.ytimg.com/vi/XDv370Tg_lU/mqdefault.jpg);
+}
+
+section{
+    color: rgb(47, 47, 223);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+section button{
+    background: darkblue;
+    color: floralwhite;
+    height: 30px;
+    width: 100px;
+}
