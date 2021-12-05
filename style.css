@@ -1,3 +1,11 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1{
     background: -webkit-linear-gradient(blue, yellow);
 -webkit-background-clip: text;
@@ -7,9 +15,6 @@ h1{
 
     padding: 50px;
 }
-/* body{
-    background-image: url(https://i.ytimg.com/vi/XDv370Tg_lU/mqdefault.jpg);
-} */
 
 #background-video {
     height: 100vh;
@@ -39,7 +44,7 @@ section{
 }
 
 section{
-    color: rgb(47, 47, 223);
+    color: rgb(18, 18, 240);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 } 
@@ -88,7 +93,11 @@ border-right: 20px;
 	padding: 20px;
 	cursor: pointer;
 	margin-bottom: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
+
 #submit:hover{
 	background-color: orange;
 }
