@@ -5,6 +5,7 @@ const submitButton = document.getElementById('submit');
 
 const myQuestions = [
     {
+       
     question:"1.Answer choices for the first question." ,
     answers: {
         a: "john",
@@ -24,6 +25,7 @@ const myQuestions = [
     correctAnswer: "b"
     },
     {
+    
     question: "3.Answer choices for the third question.",
     answers: {
         a: "26",
@@ -82,6 +84,6 @@ const myQuestions = [
     
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
     }
-    
+
     buildQuiz();
     submitButton.addEventListener('click', showResults);
